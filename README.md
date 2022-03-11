@@ -2,21 +2,22 @@
 ## 1 Variáveis
 Responsaveis por guardar dados na memória.
 inicia com a palavra var,let ou const
+
 exemplo
-var nome = 'thiago';
+var nome = 'thiago';                             
 let idade = 28;
 const posuiFaculdade = false;
 
 obs: mas tarde vamos ver a diferença dessas três
 
-*Sintaxe
+**Sintaxe**
 Palavra chave var seguida do nome, sinal de igual e o valor.
 
 var nome = 'Thiago';
 var idade = 27;
 var possuiFaculdade = true;
 
-*Vírgula
+**Vírgula**
 Utilizei a vírgula para criar mais de uma variável, sem repetir a
 palavra chave var.
 
@@ -24,7 +25,7 @@ var nome = 'Thiago',
 idade = 27,
 possuiFaculdade = true;
 
-*Sem valor
+**Sem valor**
 Pode declarar ela e não atribuir valor inicialmente.
 
 var precoBanana;
