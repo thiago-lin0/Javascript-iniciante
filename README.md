@@ -1,4 +1,4 @@
-![logo javascript](https://pcodinomebzero.neocities.org/Imagens/javascript1.png)
+:![logo javascript](https://pcodinomebzero.neocities.org/Imagens/javascript1.png):
 
 # Javascript-iniciante </br>
 __Um guia básica para quem está começando em Javascript__
