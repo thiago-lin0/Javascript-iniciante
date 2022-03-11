@@ -1,4 +1,5 @@
-# Javascript-iniciante
+# Javascript-iniciante </br>
+__Um guia básica para quem está começando em Javascript__ ![logo javascript](https://www.google.com/url?sa=i&url=https%3A%2F%2Fpcodinomebzero.neocities.org%2FPages%2FJavaScript.html&psig=AOvVaw3sd6kxYw9J3wefhF-9Db5t&ust=1647089726133000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNi_zcaNvvYCFQAAAAAdAAAAABAO)
 ## 1 Variáveis
 Responsaveis por guardar dados na memória.
 inicia com a palavra var,let ou const
