@@ -20,9 +20,9 @@ _obs: mas tarde vamos ver a diferença dessas três_
 
 ### Sintaxe
 
-<p>
+
 Palavra chave **var** seguida do **nome**, sinal de **igual** e o **valor**.
-</p>
+
 </br>
 
 ~~~javascript
