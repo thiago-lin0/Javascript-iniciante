@@ -3,10 +3,10 @@
 Responsaveis por guardar dados na memória.
 inicia com a palavra var,let ou const
 
-exemplo
-var nome = 'thiago';                             
-let idade = 28;
-const posuiFaculdade = false;
+exemplo < br />
+var nome = 'thiago'; <br/>                            
+let idade = 28; <br/>
+const posuiFaculdade = false;<br/>
 
 obs: mas tarde vamos ver a diferença dessas três
 
