@@ -92,9 +92,9 @@ movido.
 
 ~~~javascript
 console.log(nome);
-var nome = 'André';  Retorna undefined
+var nome = 'André';  //Retorna undefined
 var profissao = 'Professor';
-console.log(profissao); Retornar Professor
+console.log(profissao); //Retornar Professor
 ~~~
 
 ### Mudar o valor atribuído
@@ -109,7 +109,7 @@ preco = 25;
 const possuiFaculdade = true;
 possuiFaculdade = false;
 
-Retorna um erro
+//Retorna um erro
 ~~~
 **obs: dentro da pasta variaveis tem uns exercicios tente fazer para práticar**
 
