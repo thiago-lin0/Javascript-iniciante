@@ -91,10 +91,11 @@ movido.
 </p>
 ~~~javascript
 console.log(nome);
-var nome = 'André'; // Retorna undefined
-
+var nome = 'André'; 
+// Retorna undefined
 var profissao = 'Professor';
-console.log(profissao); --> // Retornar Professor
+console.log(profissao);
+// Retornar Professor
 ~~~
 
 ### Mudar o valor atribuído
