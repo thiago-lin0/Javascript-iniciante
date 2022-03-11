@@ -89,6 +89,7 @@ var possuiFaculdadeNoExterior;
 São movidas para cima do código, porém o valor atribuído não é
 movido.
 </p>
+
 ~~~javascript
 console.log(nome);
 var nome = 'André';  Retorna undefined
@@ -99,6 +100,7 @@ console.log(profissao); Retornar Professor
 ### Mudar o valor atribuído
 <p>É possível mudar os valores atribuídos a variáveis declaradas com
 var e let . Porém não é possível modificar valores das declaradas com const</p>
+
 ~~~javascript
 var idade = 27;
 idade = 29;
@@ -109,6 +111,6 @@ possuiFaculdade = false;
 
 Retorna um erro
 ~~~
-__obs: dentro da pasta variaveis tem uns exercicios tente fazer para práticar___
+**obs: dentro da pasta variaveis tem uns exercicios tente fazer para práticar**
 
 ## 2 tipos de dados
