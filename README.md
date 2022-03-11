@@ -1,15 +1,20 @@
+![logo javascript](https://pcodinomebzero.neocities.org/Imagens/javascript1.png)
+
 # Javascript-iniciante </br>
-__Um guia básica para quem está começando em Javascript__ ![logo javascript](https://pcodinomebzero.neocities.org/Imagens/javascript1.png)
+__Um guia básica para quem está começando em Javascript__
 ## 1 Variáveis
 Responsaveis por guardar dados na memória.
 inicia com a palavra var,let ou const
 
 <p>
-Exemplo </br>
+Exemplo
+</p>
+
+~~~javascript
 var nome = 'thiago'; </br>                            
 let idade = 28; </br>
 const posuiFaculdade = false; </br>
-</p>
+~~~
 
 _obs: mas tarde vamos ver a diferença dessas três_
 
