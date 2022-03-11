@@ -11,9 +11,9 @@ Exemplo
 </p>
 
 ~~~javascript
-var nome = 'thiago'; </br>                            
-let idade = 28; </br>
-const posuiFaculdade = false; </br>
+var nome = 'thiago';                      
+let idade = 28;
+const posuiFaculdade = false; 
 ~~~
 
 _obs: mas tarde vamos ver a diferença dessas três_
@@ -26,9 +26,9 @@ Palavra chave **var** seguida do **nome**, sinal de **igual** e o **valor**.
 </br>
 
 ~~~javascript
-var nome = 'Thiago';</br>
-var idade = 27;</br>
-var possuiFaculdade = true;</br>
+var nome = 'Thiago';
+var idade = 27;
+var possuiFaculdade = true;
 ~~~
 
 ### Vírgula
@@ -62,7 +62,7 @@ Podem conter números mas não iniciar com eles
 nome é diferente de Nome
 
 3. Não utilizar palavras reservadas</br>
-aqui vai um link das palavras reservadas--> (https://www.w3schools.com/js/js_reserved.asp)
+aqui vai um link das palavras reservadas --> (https://www.w3schools.com/js/js_reserved.asp)
 
 4. Camel case
 É comum nomearmos assim: abrirModal
