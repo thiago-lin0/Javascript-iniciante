@@ -70,13 +70,15 @@ aqui vai um link das palavras reservadas--> (https://www.w3schools.com/js/js_res
 <p>
 exemplo
 </p>
+
+__Inválido__
 ~~~javascript
-// Inválido
 var §nome;
 var function;
 var 1possuiFaculdade;
-
-// Válido</br>
+~~~
+__Válido__
+~~~javascript
 var $selecionar;
 var _nome;
 var possuiFaculdadeNoExterior;
