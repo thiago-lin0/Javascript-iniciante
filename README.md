@@ -1,4 +1,4 @@
-                               ![logo javascript](https://cdn.iconscout.com/icon/free/png-256/javascript-2752148-2284965.png)
+![logo javascript](https://cdn.iconscout.com/icon/free/png-256/javascript-2752148-2284965.png)
 
 # Javascript-iniciante </br>
 __Um guia básica para quem está começando em Javascript__
