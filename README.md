@@ -10,57 +10,64 @@ let idade = 28; </br>
 const posuiFaculdade = false; </br>
 </p>
 
+_obs: mas tarde vamos ver a diferença dessas três_
 
-obs: mas tarde vamos ver a diferença dessas três
+### Sintaxe
 
-**Sintaxe**
-Palavra chave var seguida do nome, sinal de igual e o valor.
+<p>
+Palavra chave **var** seguida do **nome**, sinal de **igual** e o **valor**.</br>
 
-var nome = 'Thiago';
-var idade = 27;
-var possuiFaculdade = true;
+var nome = 'Thiago';</br>
+var idade = 27;</br>
+var possuiFaculdade = true;</br>
+</p>
 
-**Vírgula**
+### Vírgula
+<p>
 Utilizei a vírgula para criar mais de uma variável, sem repetir a
-palavra chave var.
+palavra chave var. </br>
 
-var nome = 'Thiago',
-idade = 27,
+var nome = 'Thiago',</br>
+idade = 27,</br>
 possuiFaculdade = true;
+</p>
+### Sem valor
+<p>
+Pode declarar ela e não atribuir valor inicialmente. </br>
 
-**Sem valor**
-Pode declarar ela e não atribuir valor inicialmente.
-
-var precoBanana;
+var precoBanana;<br>
 // retorna undefined
+</p>
 
-*Como nomear uma variavel
+### Como nomear uma variavel
 
-1-podem iniciar com $, _, ou letras.
+1. podem iniciar com $, _, ou letras.
 Podem conter números mas não iniciar com eles
 
-2-Case sensitive
+2. Case sensitive
 nome é diferente de Nome
 
-3-Não utilizar palavras reservadas
+3. Não utilizar palavras reservadas
 aqui vai um link das palavras reservadas--> https://www.w3schools.com/js/js_reserved.asp
 
-4-Camel case
+4. Camel case
 É comum nomearmos assim: abrirModal
 
+<p>
 exemplo
 
-// Inválido
-var §nome;
-var function;
-var 1possuiFaculdade;
+// Inválido</br>
+var §nome;</br>
+var function;</br>
+var 1possuiFaculdade;</br>
 
-// Válido
-var $selecionar;
-var _nome;
+// Válido</br>
+var $selecionar;</br>
+var _nome;</br>
 var possuiFaculdadeNoExterior;
+</p>
 
-*Hoisting
+### Hoisting
 São movidas para cima do código, porém o valor atribuído não é
 movido.
 
