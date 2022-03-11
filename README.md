@@ -21,29 +21,37 @@ _obs: mas tarde vamos ver a diferença dessas três_
 ### Sintaxe
 
 <p>
-Palavra chave **var** seguida do **nome**, sinal de **igual** e o **valor**.</br>
+Palavra chave **var** seguida do **nome**, sinal de **igual** e o **valor**.
+</p>
+</br>
 
+~~~javascript
 var nome = 'Thiago';</br>
 var idade = 27;</br>
 var possuiFaculdade = true;</br>
-</p>
+~~~
 
 ### Vírgula
 <p>
 Utilizei a vírgula para criar mais de uma variável, sem repetir a
-palavra chave var. </br>
+palavra chave var.</p>
+</br>
 
-var nome = 'Thiago',</br>
-idade = 27,</br>
+~~~javascript
+var nome = 'Thiago',
+idade = 27,
 possuiFaculdade = true;
-</p>
+~~~
 ### Sem valor
 <p>
-Pode declarar ela e não atribuir valor inicialmente. </br>
-
-var precoBanana;<br>
-// retorna undefined
+Pode declarar ela e não atribuir valor inicialmente.
 </p>
+</br>
+
+~~~javascript
+var precoBanana;
+// retorna undefined
+~~~
 
 ### Como nomear uma variavel
 
@@ -53,40 +61,44 @@ Podem conter números mas não iniciar com eles
 2. Case sensitive
 nome é diferente de Nome
 
-3. Não utilizar palavras reservadas
-aqui vai um link das palavras reservadas--> https://www.w3schools.com/js/js_reserved.asp
+3. Não utilizar palavras reservadas</br>
+aqui vai um link das palavras reservadas--> (https://www.w3schools.com/js/js_reserved.asp)
 
 4. Camel case
 É comum nomearmos assim: abrirModal
 
 <p>
 exemplo
-
-// Inválido</br>
-var §nome;</br>
-var function;</br>
-var 1possuiFaculdade;</br>
+</p>
+~~~javascript
+// Inválido
+var §nome;
+var function;
+var 1possuiFaculdade;
 
 // Válido</br>
-var $selecionar;</br>
-var _nome;</br>
+var $selecionar;
+var _nome;
 var possuiFaculdadeNoExterior;
-</p>
+~~~
 
 ### Hoisting
+<p>
 São movidas para cima do código, porém o valor atribuído não é
 movido.
-
+</p>
+~~~javascript
 console.log(nome);
 var nome = 'André'; // Retorna undefined
 
 var profissao = 'Professor';
 console.log(profissao); --> // Retornar Professor
+~~~
 
-*Mudar o valor atribuído
-É possível mudar os valores atribuídos a variáveis declaradas com
-var e let . Porém não é possível modificar valores das declaradas com const
-
+### Mudar o valor atribuído
+<p>É possível mudar os valores atribuídos a variáveis declaradas com
+var e let . Porém não é possível modificar valores das declaradas com const</p>
+~~~javascript
 var idade = 27;
 idade = 29;
 let preco = 50;
@@ -94,7 +106,7 @@ preco = 25;
 const possuiFaculdade = true;
 possuiFaculdade = false;
 // Retorna um erro
-
---> obs: dentro da pasta variaveis tem uns exercicios tente fazer para práticar
+~~~
+__obs: dentro da pasta variaveis tem uns exercicios tente fazer para práticar___
 
 ## 2 tipos de dados
