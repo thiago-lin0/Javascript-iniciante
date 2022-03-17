@@ -114,3 +114,66 @@ possuiFaculdade = false;
 **obs: dentro da pasta variaveis tem uns exercicios tente fazer para práticar**
 
 ## 2 tipos de dados
+
+Todos são primitivos exceto os objetos
+
+~~~javascript
+var nome = 'Thiago'; // String
+var idade = 27; // Number
+var possuiFaculdade = true; // Boolean
+var time; // Undefined
+var comida = null; // Null
+var simbolo = Symbol() // Symbol
+var novoObjeto = {} // Object
+~~~
+Primitivos são dados imutaveis 
+
+### Veerificar tipo de dado
+
+~~~javascript
+var nome = 'Thiago';
+console.log(typeof nome);
+// retorna string
+~~~
+typeof null  retorna object
+
+### String
+
+Você pode somar uma string e assim concatenar as palavras.
+
+~~~javascript
+var nome = 'Thiago';
+var sobrenome = 'Lino';
+var nomeCompleto = nome + ' ' + sobrenome;
+~~~
+Você pode somar números com strings, o resultado nal é sempre uma string.
+~~~javascript
+var gols = 1000;
+var frase = 'Romário fez ' + gols + ' gols';
+~~~
+
+Aspas Duplas, Simples e Template String
+
+~~~javascript
+'JavaScript é "super" fácil';
+"JavaScript é 'super' fácil";
+"JavaScript é \"super\" fácil";
+`JavaScript é "super" fácil"`;
+"JavaScript é "super" fácil"; // Inválido
+~~~
+
+Não necessariamente precisamos </br>
+atribuir valores a uma variável
+
+### Template String
+
+~~~javascript
+var gols = 1000;
+var frase1 = 'Romário fez ' + gols + ' gols';
+var frase2 = `Romário fez ${gols} gols`; // Utilizando Template String
+~~~
+
+Você deve passar expressões / <br>
+variáveis dentro de ${}
+
+**obs: dentro da pasta tipos de dados tem uns exercicios tente fazer para práticar**
