@@ -177,3 +177,5 @@ Você deve passar expressões / <br>
 variáveis dentro de ${}
 
 **obs: dentro da pasta tipos de dados tem uns exercicios tente fazer para práticar**
+
+# Números e operadores
