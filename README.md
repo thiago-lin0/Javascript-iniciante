@@ -178,4 +178,4 @@ variáveis dentro de ${}
 
 **obs: dentro da pasta tipos de dados tem uns exercicios tente fazer para práticar**
 
-# Números e operadores
+## 3 Números e operadores
